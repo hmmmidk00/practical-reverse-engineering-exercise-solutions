@@ -25,7 +25,7 @@
 ![This is an image](images/exemple.png)
 
 as we said (repne scasb) decreases the value of ECX after each byte comparison and we started as ECX=-1 --> ECX ends up to be -40
-(the '?' is random in the memory it's there after our string cuz we scroll up the hole string to end and randomly '?' has been there)
+(the '?' is random charcter in the memory it's there after our string cuz we scroll up the hole string to end and randomly '?' has been there)<br>
 
 ECX=ECX+2 ==> ECX=-40+2=-38 (the length of our string)
 let's assume [EBP+C]='x'
