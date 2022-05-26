@@ -21,8 +21,9 @@
 
 11. This copies the address of the string to EAX. EAX holds the return value of the function, so the snippet returns a pointer to the modified string.
 
-## exemple:
+## Exemple:(EDI point at )
 ![This is an image](images/exemple.png)
+
 as we said (repne scasb) decreases the value of ECX after each byte comparison and we started as ECX=-1 --> ECX ends up to be -40
 (the '?' is random in the memory it's there after our string cuz we scroll up the hole string to end and randomly '?' has been there)
 
